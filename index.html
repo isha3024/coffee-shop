@@ -19,7 +19,7 @@
             </a>
             <div class="menu-content">
                 <ul class="menu-list flex">
-                    <li><a href="#" class="nav-link active-navlink">Home</a></li>
+                    <li><a href="#home" class="nav-link active-navlink">Home</a></li>
                     <li><a href="#about" class="nav-link">About</a></li>
                     <li><a href="#menu" class="nav-link">Menu</a></li>
                     <li><a href="#review" class="nav-link">Reviews</a></li>
@@ -57,12 +57,10 @@
             <div class="home-content">
                 <div class="slider swiper">
                     <div class="swiper-wrapper" id="bannerSlider">
-                        <!-- Dynamic code through JS -->
+                        <!-- Dynamic code using JS -->
                     </div>
-                    <div class="swiper-button-next swiper-navBtn-next"></div>
-                    <div class="swiper-button-prev swiper-navBtn-prev"></div>
-
-                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next swiper-navBtn-next navigation-btn"></div>
+                    <div class="swiper-button-prev swiper-navBtn-prev navigation-btn"></div>
                 </div>
             </div>
         </section>
@@ -110,83 +108,13 @@
                     <p class="section-description">Our place designed by pro architecture with psychologist to build best place suit you. Our place designed by pro architecture with psychologist to build best place suit you.</p>
                 </div>
                 <div class="menu-content">
-                    <div class="menu-items">
-                        <div class="menu-item flex">
-                            <img src="./img/menuImg1.png" alt="Menu Image1" class="menu-img">
-                            <div class="menuItem-details">
-                                <h4 class="menuItem-name">Americano Roasted Coffee</h4>
-                                <p class="menuItem-desc">It is a long established fact that a reader will be distracted by the readable.</p>
-                            </div>
-                            <div class="menuItem-price flex">
-                                <span class="discount-price">$18.99</span>
-                                <span class="real-price">$20.66</span>
-                            </div>
-                        </div>
-                        <div class="menu-item flex">
-                            <img src="./img/menuImg1.png" alt="Menu Image1" class="menu-img">
-                            <div class="menuItem-details">
-                                <h4 class="menuItem-name">Americano Roasted Coffee</h4>
-                                <p class="menuItem-desc">It is a long established fact that a reader will be distracted by the readable.</p>
-                            </div>
-                            <div class="menuItem-price flex">
-                                <span class="discount-price">$18.99</span>
-                                <span class="real-price">$20.66</span>
-                            </div>
-                        </div>
-                        <div class="menu-item flex">
-                            <img src="./img/menuImg1.png" alt="Menu Image1" class="menu-img">
-                            <div class="menuItem-details">
-                                <h4 class="menuItem-name">Americano Roasted Coffee</h4>
-                                <p class="menuItem-desc">It is a long established fact that a reader will be distracted by the readable.</p>
-                            </div>
-                            <div class="menuItem-price flex">
-                                <span class="discount-price">$18.99</span>
-                                <span class="real-price">$20.66</span>
-                            </div>
-                        </div>
-                        <div class="menu-item flex">
-                            <img src="./img/menuImg1.png" alt="Menu Image1" class="menu-img">
-                            <div class="menuItem-details">
-                                <h4 class="menuItem-name">Americano Roasted Coffee</h4>
-                                <p class="menuItem-desc">It is a long established fact that a reader will be distracted by the readable.</p>
-                            </div>
-                            <div class="menuItem-price flex">
-                                <span class="discount-price">$18.99</span>
-                                <span class="real-price">$20.66</span>
-                            </div>
-                        </div>
+                    <div class="menu-items" id="menu_items">
+                        <!-- Dynamic code using JS -->
                     </div>
                     <div class="time-table">
                         <span class="time-topic">Categories Time</span>
-                        <ul class="time-lists">
-                            <li class="time-list flex">
-                                <span class="open-day">Sunday</span>
-                                <span class="open-time">Closed</span>
-                            </li>
-                            <li class="time-list flex">
-                                <span class="open-day">Monday</span>
-                                <span class="open-time">7.00am - 3.00pm</span>
-                            </li>
-                            <li class="time-list flex">
-                                <span class="open-day">Tuesday</span>
-                                <span class="open-time">7.00am - 3.00pm</span>
-                            </li>
-                            <li class="time-list flex">
-                                <span class="open-day">Wednesday</span>
-                                <span class="open-time">7.00am - 3.00pm</span>
-                            </li>
-                            <li class="time-list flex">
-                                <span class="open-day">Thursday</span>
-                                <span class="open-time">7.00am - 3.00pm</span>
-                            </li>
-                            <li class="time-list flex">
-                                <span class="open-day">Friday</span>
-                                <span class="open-time">7.00am - 3.00pm</span>
-                            </li>
-                            <li class="time-list flex">
-                                <span class="open-day">Saturday</span>
-                                <span class="open-time">9.00am - 2.00pm</span>
-                            </li>
+                        <ul class="time-lists" id="time_lists">
+                            <!-- Dynamic code using JS -->
                         </ul>
                     </div>
                 </div>
@@ -197,22 +125,8 @@
         <section class="section brand">
             <div class="brand-container container">
                 <h4 class="section-subtitle text-center">Our Trusted Brands</h4>
-                <div class="brand-wrapper">
-                    <div class="brand-image">
-                        <img src="./img/brandImg1.png" alt="Brand image">
-                    </div>
-                    <div class="brand-image">
-                        <img src="./img/brandImg2.png" alt="Brand image">
-                    </div>
-                    <div class="brand-image">
-                        <img src="./img/brandImg3.png" alt="Brand image">
-                    </div>
-                    <div class="brand-image">
-                        <img src="./img/brandImg4.png" alt="Brand image">
-                    </div>
-                    <div class="brand-image">
-                        <img src="./img/brandImg5.png" alt="Brand image">
-                    </div>
+                <div class="brand-wrapper" id="brand_wrapper">
+                    <!-- Dynamic code using JS -->
                 </div>
             </div>
         </section>
@@ -223,35 +137,11 @@
                 <h4 class="section-subtitle text-center">Reviews</h4>
                 <h2 class="section-title text-center">What Clients Says</h2>
                 <div class="swiper slider">
-                    <div class="swiper-wrapper mt-8 pt-8">
-                        <div class="swiper-slide flex flex-col align-center review-content">
-                            <img src="./img/profileImg1.jpg" alt="Profile Image">
-                            <p class="section-description relative text-center"><i class="bx bxs-quote-alt-left quote-icon absolute"></i>Your coffee hits the spot every time. Thank you for the experience of pure, delicious coffee masterfully roasted! I will never purchase any other and I will spread the word!</p>
-                            <div class="author-details flex flex-col">
-                                <span class="author-name font-semibold">Marine Rotter</span>
-                                <span class="author-desig text-slate-500">App Developer</span>
-                            </div>
-                        </div>
-                        <div class="swiper-slide flex flex-col align-center review-content">
-                            <img src="./img/profileImg2.jpg" alt="Profile Image">
-                            <p class="section-description relative text-center"><i class="bx bxs-quote-alt-left quote-icon absolute"></i>Your coffee hits the spot every time. Thank you for the experience of pure, delicious coffee masterfully roasted! I will never purchase any other and I will spread the word!</p>
-                            <div class="author-details flex flex-col">
-                                <span class="author-name font-semibold">Marine Rotter</span>
-                                <span class="author-desig text-slate-500">App Developer</span>
-                            </div>
-                        </div>
-                        <div class="swiper-slide flex flex-col align-center review-content">
-                            <img src="./img/profileImg3.jpg" alt="Profile Image">
-                            <p class="section-description relative text-center"><i class="bx bxs-quote-alt-left quote-icon absolute"></i>Your coffee hits the spot every time. Thank you for the experience of pure, delicious coffee masterfully roasted! I will never purchase any other and I will spread the word!</p>
-                            <div class="author-details flex flex-col">
-                                <span class="author-name font-semibold">Marine Rotter</span>
-                                <span class="author-desig text-slate-500">App Developer</span>
-                            </div>
-                        </div>
+                    <div class="swiper-wrapper mt-8 pt-8" id="reviews_wrapper">
+                        <!-- Dynamic code using JS -->
                     </div>
-                    <div class="swiper-button-next swiper-reviewBtn-next"></div>
-                    <div class="swiper-button-prev swiper-reviewBtn-prev"></div>
-                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next swiper-reviewBtn-next navigation-btn"></div>
+                    <div class="swiper-button-prev swiper-reviewBtn-prev navigation-btn"></div>
                 </div>
             </div>
         </section>

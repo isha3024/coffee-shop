@@ -254,11 +254,7 @@ nav.navigation  {
 
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-.swiper-pagination{
-    display: none;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .home-details  {
@@ -463,8 +459,14 @@ nav.navigation  {
     align-items: center;
     justify-content: space-around;
     column-gap: 2rem;
+    row-gap: 2rem;
     margin-top: 3rem;
     grid-template-columns: repeat(5, 1fr);
+}
+
+.brand-image {
+    display: flex;
+    justify-content: center;
 }
 
 .brand-image img {
@@ -476,6 +478,7 @@ nav.navigation  {
 
 .brand-image:hover img {
     opacity: 1;
+    filter: drop-shadow(16px 7px 4px rgba(0, 0, 0, 0.6));
 }
 
 .review {
@@ -712,25 +715,32 @@ nav.navigation  {
         height: 100%;
     }
 
-    .swiper-button-next,
-    .swiper-button-prev{
-        display: none;
+    .swiper-navBtn-prev {
+        left: 35% !important; 
     }
 
-    .swiper-pagination{
-        display: block;
+    .swiper-navBtn-next {
+        right: 35% !important;
     }
 
-    .swiper-pagination-bullet{
-        background-color: var(--white-color);
-        height: 1.5rem;
-        width: 1.5rem;
-        cursor: pointer;
+    .swiper-reviewBtn-next,
+    .swiper-reviewBtn-prev {
+        top: 91%;
+        height: 4rem !important;
+        width: 4rem !important;
     }
 
-    .swiper-pagination-bullet-active{
-        border: 3px solid var(--white-color);
-        background-color: var(--primary-color);
+    .swiper-reviewBtn-next{
+        right: 35%;
+    }
+
+    .swiper-reviewBtn-prev {
+        left: 35%;
+    }
+
+    .navigation-btn{
+        opacity: 1;
+        top: 90%;
     }
 
     .section{
@@ -793,7 +803,7 @@ nav.navigation  {
     }
 
     .review-container .swiper {
-        padding: 0 0 40px;
+        padding: 0 0 80px;
     }
 
     .review-container .swiper .swiper-pagination-bullet{
