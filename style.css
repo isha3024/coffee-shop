@@ -33,13 +33,13 @@ img  {
 
 :root  {
     --body-font: 'Poppins', sans-serif;
-    --big-font: 4rem;
-    --h1-font: 3.6rem;
-    --h2-font: 2.4rem;
-    --h3-font: 2rem;
-    --h4-font: 1.8rem;
-    --normal-font: 1.6rem;
-    --small-font: 1.4rem;
+    --big-font: 35px;
+    --h1-font: 24px;
+    --h2-font: 20px;
+    --h3-font: 18px;
+    --h4-font: 16px;
+    --normal-font: 15px;
+    --small-font: 13px;
     --smaller-font: 12px;
     --font-regular: 400;
     --font-medium: 500;
@@ -602,6 +602,16 @@ nav.navigation  {
     justify-items: end;
 }
 
+.footer-link-wrapper{
+    display: grid;
+    row-gap: 1rem;
+}
+
+.footer-link-wrapper h4{
+    color: var(--white-color);
+    font-weight: var(--font-semi-bold);
+}
+
 .footer-links{
     display: grid;
     row-gap: 1rem;
@@ -793,6 +803,10 @@ nav.navigation  {
     .footer-container{
         grid-template-columns: 1fr;
         row-gap: 3rem;
+    }
+
+    .footer-linkContent{
+        justify-items: center;
     }
 
     .footer-content .logo-content{
