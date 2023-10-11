@@ -28,8 +28,18 @@ window.onscroll = () => {
   else{
     header.classList.remove("header-active");
   }
-  // console.log(document.querySelector('.menu').offsetTop);
-  // console.log(document.querySelector('.menu').getBoundingClientRect().top);
+
+  sections.forEach((section) => {
+    let current = section.getAttribute('id');
+    const sectionHeight = section.offsetHeight;
+    const sectionTop = section.offsetTop - 50;
+    if(window.pageYOffset > sectionTop && window.pageYOffset <= sectionTop + sectionHeight){
+     
+    }
+    else{
+      
+    }
+  })
 }
 
 menuOpen.addEventListener('click', () => {
